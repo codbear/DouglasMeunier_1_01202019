@@ -1,0 +1,311 @@
+/* Reset des marges et de la largeur de la page */
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}
+
+/* Importation des polices */
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+
+/* Framework */
+section {
+  padding-top: 12vh;
+  height: 90vh;
+  width: 100vw;
+}
+
+body, #main-nav a {
+  color: #505050;
+  font-family: "Roboto";
+}
+
+a, .aw-blue {
+  color: #5CADD3;
+  text-decoration: none;
+}
+
+.aw-white {
+  color: #fff;
+}
+
+.aw-center {
+  text-align: center;
+}
+
+.aw-button {
+  height: 4vh !important;
+  padding: 10px 15px 10px 15px !important;
+  background-color: #5CADD3;
+  color: #fff;
+  font-weight: bold;
+  width: 150px !important;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-size: 2.4em;
+  font-family: "Roboto-Bold";
+}
+
+h2 {
+  margin: 0 0 2vh 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 2px;
+  background-color: #E5E5E5;
+  width: 10vw;
+}
+
+.divider-point {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 5px solid #fff;
+  border-radius: 12px;
+  background: #5CADD3;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0px;
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  z-index: 100;
+}
+
+#logo {
+  margin-left: 10vw;
+}
+
+#main-nav {
+  margin-right: 5vw;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav li {
+  margin-right: 3vw;
+}
+
+#main-nav a {
+  text-decoration: none;
+}
+
+#main-nav a:hover {
+  border-top: 3px solid #5CADD3;
+}
+
+/* Section Accueil */
+#intro {
+  position: absolute;
+  top: 30vh;
+  left: 5vw;
+}
+
+#intro p {
+  margin-bottom: 5vh;
+}
+
+/* Slider */
+#aw-slider{
+   position : relative;
+   background : #000;
+   padding: 0;
+   margin: 0;
+ }
+
+.aw-slide{
+   position : absolute;
+   top : 0px;
+   left : 0px;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
+
+/* Section Services */
+article {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#services ul {
+  width: 40vw;
+}
+
+#services li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service {
+  width: 33vw;
+}
+
+i {
+  color: #5CADD3;
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.service-round {
+  display: flex;
+  align-items: center;
+  border: 2px solid #E5E5E5;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.fa-circle {
+  position: relative;
+  right: -5px;
+  font-size: 0.8em;
+  border: 5px solid #fff;
+  margin: 0;
+}
+
+/* Section Portfolio */
+#portfolio {
+  background-color: #f5f5f5
+}
+
+#portfolio .divider-point {
+  border-color: #f5f5f5;
+}
+
+#portfolio-nav ul {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 5vh 0 5vh 0;
+  padding: 0;
+}
+
+#portfolio-nav li {
+  position: relative;
+  padding: 10px 2vw 10px 2vw;
+  line-height: 30px;
+  text-align: center;
+  background-color: #e5e5e5;
+  border-bottom: 5px solid #e5e5e5;
+  color: #000;
+}
+
+#portfolio-nav i {
+  opacity: 0;
+  width: 100%;
+  color: #468cad;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 35px;
+  margin: 0;
+}
+
+#portfolio-nav li:hover {
+  background-color: #5CADD3;
+  border-bottom: 5px solid #468CAD;
+  color: #fff;
+}
+
+#portfolio-nav i:hover {
+  opacity: 1;
+}
+
+#projects-container {
+  width: 95vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#projects-container img {
+  height: 25vh;
+  width: 20vw;
+}
+
+/* Section Contact */
+#contact {
+  box-shadow: inset 2000px 0 0 0 rgba(92, 173, 211, 0.25);
+  background: url("../images/map.png") scroll no-repeat bottom center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#contact h2 {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 2vh;
+}
+
+#contact p {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+#contact em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+#contact p a {
+  border-bottom: 2px dotted #272727;
+  color: black;
+}
+
+#contact div {
+  width: 20vw;
+  margin-right: 10vw;
+  padding: 0 2% 2% 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-top: 3vh;
+  padding: 1vh 0 1vh 1vw;
+  font-family: "Roboto";
+  font-size: 1em;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
