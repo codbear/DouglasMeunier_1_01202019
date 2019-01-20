@@ -1,0 +1,52 @@
+/* Framework */
+.divider {
+  width: 20vw;
+}
+
+/* Section Accueil */
+#intro {
+  position: absolute;
+  top: 50vh;
+}
+
+#intro h1, #intro p {
+  color: #555;
+}
+
+ #accueil i {
+  top: 25%;
+}
+
+/* Section Services */
+#services img {
+  visibility: collapse;
+}
+
+#services ul {
+  width: 100%;
+}
+
+#services li {
+  width: 100%;
+}
+
+.service {
+  width: 85%;
+}
+
+/* Section Portfolio */
+#projects-container {
+  padding: 0;
+  margin: auto;
+}
+
+#projects-container img {
+  height: 20vh;
+  width: 20vw;
+}
+
+/* Section Contact */
+#contact div {
+  width: 40vw ;
+  margin-right: 5vw;
+}
