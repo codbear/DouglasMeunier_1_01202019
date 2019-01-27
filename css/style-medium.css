@@ -4,15 +4,6 @@
 }
 
 /* Section Accueil */
-#intro {
-  position: absolute;
-  top: 50vh;
-}
-
-#intro h1, #intro p {
-  color: #555;
-}
-
  #accueil i {
   top: 25%;
 }

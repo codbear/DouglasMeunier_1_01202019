@@ -136,35 +136,39 @@ header {
 }
 
 /* Section Accueil */
+#accueil {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Slider */
+#aw-slider{
+  display: flex;
+  width: 200%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.aw-slide{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #intro {
   position: absolute;
   top: 30%;
   left: 10%;
+  width: 40%;
 }
 
 #intro p {
   margin-bottom: 5%;
 }
 
-/* Slider */
-#aw-slider{
-  position : relative;
-  height: 500px;
-  background : #000;
-  padding: 0;
-  margin: 0;
- }
-
-.aw-slide{
-  position : absolute;
-  top : 0px;
-  left : 0px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
- }
-
- #accueil i {
+#accueil i {
   position: absolute;
   top: 40%;
   background-color: rgba(0, 0, 0, 0.2);
