@@ -17,8 +17,7 @@ body {
 
 /* Framework */
 section {
-  padding-top: 10vh;
-  height: 90vh;
+  padding-top: 100px;
 }
 
 body, #main-nav a {
@@ -40,12 +39,12 @@ a, .aw-blue {
 }
 
 .aw-button {
-  height: 40px !important;
-  padding: 10px 15px 10px 15px !important;
+  height: 40px ;
+  padding: 10px 15px 10px 15px ;
   background-color: #5CADD3;
   color: #fff;
   font-weight: bold;
-  width: 150px !important;
+  width: 150px ;
   border-bottom: thick solid #468cad;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -100,26 +99,29 @@ header {
   align-items: center;
   background-color: #fff;
   z-index: 100;
+  height: 100px;
 }
 
 #logo {
-  margin-left: 10vw;
+  margin: 1% 0 1% 10%;
 }
 
 #main-nav {
-  margin: auto 0 auto 5vw;
-  height: 10vh;
+  width: 25%;
+  height: 100%;
+  margin: 0 10% 0 0;
 }
 
 #main-nav ul {
   display: flex;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 #main-nav li {
-  margin-right: 3vw;
-  padding: 3vh 0 0 0;
+  margin-right: 10%;
+  padding: 10% 0 0 0;
   border-top: thick solid #fff;
   transition-property: border-top;
   transition-duration: 500ms;
@@ -136,17 +138,18 @@ header {
 /* Section Accueil */
 #intro {
   position: absolute;
-  top: 30vh;
-  left: 5vw;
+  top: 30%;
+  left: 10%;
 }
 
 #intro p {
-  margin-bottom: 5vh;
+  margin-bottom: 5%;
 }
 
 /* Slider */
 #aw-slider{
   position : relative;
+  height: 500px;
   background : #000;
   padding: 0;
   margin: 0;
@@ -187,11 +190,11 @@ article {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 10vh;
+  margin-top: 5%;
 }
 
 #services ul {
-  width: 40vw;
+  width: 40%;
 }
 
 #services li {
@@ -202,7 +205,7 @@ article {
 }
 
 .service {
-  width: 33vw;
+  width: 80%;
 }
 
 i {
@@ -230,7 +233,8 @@ i {
 
 /* Section Portfolio */
 #portfolio {
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
+  height: 98vh;
 }
 
 #portfolio .divider-point {
@@ -241,13 +245,13 @@ i {
   display: flex;
   justify-content: center;
   height: 50px;
-  margin: 5vh 0 5vh 0;
+  margin: 2% 0 2% 0;
   padding: 0;
 }
 
 #portfolio-nav li {
   position: relative;
-  padding: 10px 2vw 10px 2vw;
+  padding: 10px 2% 10px 2%;
   line-height: 30px;
   text-align: center;
   background-color: #e5e5e5;
@@ -281,16 +285,20 @@ i {
 }
 
 #projects-container {
-  width: 95vw;
-  height: 60vh;
+  width: 95%;
+  height: 70%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
+#projects-container li {
+  width: 25%;
+  height: 40%;
+}
+
 #projects-container img {
-  height: 25vh;
-  width: 20vw;
+  height: 100%;
 }
 
 /* Section Contact */
@@ -326,8 +334,8 @@ i {
 }
 
 #contact div {
-  width: 20vw;
-  margin-right: 10vw;
+  width: 20%;
+  margin: 0 10% 10% 0;
   padding: 0 2% 2% 2%;
   background-color: rgba(235, 235, 235, 0.8);
 }
@@ -338,8 +346,8 @@ form {
 }
 
 form input, form textarea {
-  margin-top: 3vh;
-  padding: 1vh 0 1vh 1vw;
+  margin-top: 5%;
+  padding: 2% 0 2% 2%;
   font-family: "Roboto";
   font-size: 1em;
   border: 1px solid #ccc;
