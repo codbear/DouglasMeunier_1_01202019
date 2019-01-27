@@ -4,7 +4,19 @@
 }
 
 /* Section Accueil */
- #accueil i {
+#intro {
+  top: 15%;
+}
+
+#intro .wa-heading {
+  font-size: 1.6em;
+}
+
+#intro p {
+  font-size: 1em;
+}
+
+#accueil i {
   top: 25%;
 }
 
@@ -23,17 +35,6 @@
 
 .service {
   width: 85%;
-}
-
-/* Section Portfolio */
-#projects-container {
-  padding: 0;
-  margin: auto;
-}
-
-#projects-container img {
-  height: 20vh;
-  width: 20vw;
 }
 
 /* Section Contact */
