@@ -41,12 +41,11 @@ a, .wa-blue {
 }
 
 .wa-button {
-  height: 40px ;
-  padding: 10px 15px 10px 15px ;
+  padding: 2% 2% 2% 2% ;
   background-color: #5CADD3;
   color: #fff;
+  text-align: center;
   font-weight: bold;
-  width: 150px ;
   border-bottom: thick solid #468cad;
   transition-property: background-color;
   transition-duration: 250ms;
