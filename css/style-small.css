@@ -80,3 +80,18 @@
 .wa-service {
   padding-left: 5%;
 }
+
+/* Section Portfolio */
+#projects-container {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#projects-container li {
+  width: 90%;
+}
+
+#projects-container img {
+  height: 90%;
+}
