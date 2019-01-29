@@ -95,3 +95,13 @@
 #projects-container img {
   height: 90%;
 }
+
+/* Section Contact */
+#contact {
+  justify-content: center;
+}
+
+#contact div {
+  width: 90%;
+  margin: 0 0 5% 0;
+}
