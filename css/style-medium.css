@@ -17,7 +17,7 @@
 
 /* Section Services */
 #services img {
-  visibility: collapse;
+  display: none;
 }
 
 #services ul, #services li {

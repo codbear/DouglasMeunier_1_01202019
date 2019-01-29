@@ -59,3 +59,24 @@
   margin: auto;
   width: 30%;
 }
+
+/* Section Services */
+#services {
+  padding: 100px 2% 0 2%;
+}
+
+#services img {
+  display: none;
+}
+
+#services ul, #services li {
+  width: 100%;
+}
+
+#services ul {
+  padding: 0;
+}
+
+.wa-service {
+  padding-left: 5%;
+}
