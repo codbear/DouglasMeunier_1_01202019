@@ -305,21 +305,6 @@ ul {
   height: 100%;
 }
 
-.portfolio-item figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 0;
-  transition-property: opacity;
-  transition-duration: 200ms;
-}
-
-.portfolio-item figcaption:hover {
-  opacity: 1;
-}
-
 .portfolio-item-description {
   position: absolute;
   bottom: 0;
@@ -327,6 +312,13 @@ ul {
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 2% 0 2%;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 200ms;
+}
+
+.portfolio-item img:hover + .portfolio-item-description, .portfolio-item-description:hover {
+  opacity: 1;
 }
 
 .portfolio-item-description i {
