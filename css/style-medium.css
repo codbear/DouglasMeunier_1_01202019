@@ -24,6 +24,11 @@
   width: 100%;
 }
 
+/* Section Portfolio */
+.portfolio-item {
+  width: 30%;
+}
+
 /* Section Contact */
 #contact div {
   width: 40%;

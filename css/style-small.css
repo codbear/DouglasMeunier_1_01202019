@@ -82,18 +82,14 @@
 }
 
 /* Section Portfolio */
-#projects-container {
+#portfolio-container {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-#projects-container li {
+.portfolio-item {
   width: 90%;
-}
-
-#projects-container img {
-  height: 90%;
 }
 
 /* Section Contact */
