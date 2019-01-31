@@ -4,6 +4,25 @@ body {
   margin: 0px;
 }
 
+/* Animation slider */
+@keyframes wa-slider {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  50% {
+    left: -100%;
+  }
+  75% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
 /* Importation des polices */
 @font-face {
   font-family: 'Roboto';
@@ -146,6 +165,10 @@ ul {
   height: 100%;
   padding: 0;
   margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: wa-slider 15s infinite ease-in-out;
 }
 
 .wa-slide{
@@ -270,7 +293,7 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 35px;
+  padding-top: 44px;
   margin: 0;
   transition-property: all;
   transition-duration: 200ms;
