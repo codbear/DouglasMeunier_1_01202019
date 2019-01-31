@@ -35,7 +35,7 @@
         </ul>
       </nav>
     </header>
-    <section id="accueil">
+    <section id="accueil" class="wa-page-section">
       <div id="wa-slider">
         <img src="images/slider/bg1.jpg" alt="Une fillette avec les mains recouvertes de peinture" class="wa-slide"/>
         <img src="images/slider/bg2.jpg" alt="Un garçon qui parle dans un porte voix" class="wa-slide"/>
@@ -48,7 +48,7 @@
         <a href="#services" class="wa-button">Plus d'infos</a>
       </div>
     </section>
-    <section id="services">
+    <section id="services" class="wa-page-section">
       <h2 class="wa-heading wa-center">Nos Services</h2>
       <div class="wa-divider">
         <span class="wa-divider-point"></span>
@@ -93,7 +93,7 @@
         </ul>
       </article>
     </section>
-    <section id="portfolio">
+    <section id="portfolio" class="wa-page-section">
       <h2 class="wa-heading wa-center">Nos Projets</h2>
       <div class="wa-divider">
         <span class="wa-divider-point"></span>
@@ -186,20 +186,18 @@
         </figure>
       </div>
     </section>
-    <section id="contact">
-      <div>
-        <h2>Contactez-nous</h2>
+    <section id="contact" class="wa-page-section">
+      <form action="index.html" method="post" id="contact-form">
+        <h2 class="wa-heading">Contactez-nous</h2>
         <p><em>WebAgency SAS</em><br/>
-        25 Rue d'Hauteville 75010 Paris<br/>
-        <a href="tel:+330102030405">Tel :</a> 01 02 03 04 05</p>
-        <form action="index.html" method="post">
-          <input type="text" name="name" placeholder="Nom">
-          <input type="email" name="email" placeholder="Email">
-          <input type="text" name="subject" placeholder="Objet">
-          <textarea name="message" rows="8" cols="20" placeholder="Message"></textarea>
-          <input type="submit" value="Envoyer" class="wa-button" disabled>
-        </form>
-      </div>
+          25 Rue d'Hauteville 75010 Paris<br/>
+          <a href="tel:+330102030405" class="wa-tel-link">Tel :</a> 01 02 03 04 05</p>
+        <input type="text" name="name" placeholder="Nom">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="subject" placeholder="Objet">
+        <textarea name="message" rows="8" cols="20" placeholder="Message"></textarea>
+        <input type="submit" value="Envoyer" class="wa-button" disabled>
+      </form>
     </section>
   </body>
 </html>

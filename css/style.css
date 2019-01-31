@@ -55,7 +55,7 @@ body {
 }
 
 /* Framework */
-section {
+.wa-page-section {
   padding-top: 100px;
 }
 
@@ -97,7 +97,6 @@ a, .wa-blue {
 .wa-heading {
   text-transform: uppercase;
   font-size: 2.4em;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
@@ -443,16 +442,13 @@ ul {
           align-items: center;
 }
 
-#contact h2 {
+#contact .wa-heading {
   text-transform: capitalize;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 3%;
 }
 
 #contact p {
-  margin-bottom: 0;
-  line-height: 1.5;
+  margin: 0;
+  line-height: 1.5em;
 }
 
 #contact em {
@@ -460,19 +456,12 @@ ul {
   font-style: normal;
 }
 
-#contact p a {
+.wa-tel-link {
   border-bottom: 2px dotted #272727;
   color: black;
 }
 
-#contact div {
-  width: 20%;
-  margin: 0 10% 10% 0;
-  padding: 0 2% 2% 2%;
-  background-color: rgba(235, 235, 235, 0.8);
-}
-
-form {
+#contact-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,9 +469,13 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 20%;
+  margin: 0 10% 5% 0;
+  padding: 0 2% 2% 2%;
+  background-color: rgba(235, 235, 235, 0.8);
 }
 
-form input, form textarea {
+#contact-form input, #contact-form textarea {
   margin-top: 5%;
   padding: 2% 0 2% 2%;
   font-family: "Roboto", sans-serif;
