@@ -83,7 +83,7 @@ a, .wa-blue {
   color: #fff;
   text-align: center;
   font-weight: bold;
-  border-bottom: thick solid #468cad;
+  border-bottom: 5px solid #468cad;
   -webkit-transition-property: background-color;
   transition-property: background-color;
   -webkit-transition-duration: 250ms;
@@ -337,37 +337,37 @@ ul {
   line-height: 30px;
   text-align: center;
   background-color: #e5e5e5;
-  border-bottom: thick solid #e5e5e5;
+  border-bottom: 5px solid #e5e5e5;
   color: #000;
   -webkit-transition-property: all;
-  transition-property: all;
+          transition-property: all;
   -webkit-transition-duration: 200ms;
           transition-duration: 200ms;
 }
 
 #portfolio-nav i {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   width: 100%;
   color: #468cad;
+  font-size: 2em;
   position: absolute;
-  top: 0;
+  bottom: -5px;
   left: 0;
-  padding-top: 44px;
-  margin: 0;
+  transform: translateY(50%);
   -webkit-transition-property: all;
-  transition-property: all;
+          transition-property: all;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   -webkit-transition-duration: 200ms;
           transition-duration: 200ms;
 }
 
 #portfolio-nav li:hover {
   background-color: #5CADD3;
-  border-bottom: thick solid #468CAD;
+  border-bottom: 5px solid #468CAD;
   color: #fff;
 }
 
-#portfolio-nav i:hover {
+#portfolio-nav li:hover i {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
