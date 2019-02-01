@@ -417,11 +417,15 @@ ul {
 
 .portfolio-item-description i {
   position: absolute;
-  top: -25%;
+  top: 0;
   left: 80%;
+  height: 50px;
+  width: 50px;
+  transform: translate(-50%, -50%);
+  line-height: 50px;
+  text-align: center;
   font-size: 1.5em;
   background-color: #5cadd3;
-  padding: 2.5%;
   border: 2px solid #fff;
   border-radius: 50%;
 }
