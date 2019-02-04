@@ -80,7 +80,7 @@
 }
 
 /* Section Portfolio */
-#portfolio-container {
+#wa-portfolio-container {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -94,7 +94,7 @@
           align-items: center;
 }
 
-.portfolio-item {
+.wa-portfolio-item {
   width: 90%;
 }
 
