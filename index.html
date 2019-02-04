@@ -49,142 +49,146 @@
       </div>
     </section>
     <section id="services" class="wa-page-section">
-      <h2 class="wa-heading wa-center">Nos Services</h2>
-      <div class="wa-divider">
-        <span class="wa-divider-point"></span>
-      </div>
-      <p class="wa-center">Profitez d'un accompagnement personnalisé. Depuis sa conception jusqu'à sa mise en production, <br/>
-        votre projet est entre de bonnes mains, celles de la <strong>WebAgency</strong></p>
-      <article>
+      <header class="wa-section-hero">
+        <h2 class="wa-heading wa-center">Nos Services</h2>
+        <div class="wa-divider">
+          <span class="wa-divider-point"></span>
+        </div>
+        <p class="wa-center">Profitez d'un accompagnement personnalisé. Depuis sa conception jusqu'à sa mise en production, <br/>
+          votre projet est entre de bonnes mains, celles de la <strong>WebAgency</strong></p>
+      </header>
+      <section class="wa-section-body">
         <img src="images/main-feature.png" alt="Illustration d'un ordinateur"/>
-        <ul>
-          <li>
-            <div class="wa-round-divider">
-              <i class="fas fa-chart-line wa-service-logo"></i>
-              <i class="fas fa-circle wa-round-divider-point"></i>
+        <ul id="wa-services-list">
+          <li class="wa-service">
+            <div class="wa-service-icone">
+              <i class="fas fa-circle wa-service-icone-point"></i>
+              <i class="fas fa-chart-line wa-service-icone-img"></i>
             </div>
-            <div class="wa-service">
+            <article class="wa-service-description">
               <h3>UX design</h3>
-              <p>Dans notre démarche de conception, nous plaçons toujours les futurs utilisateurs <br/>
-                au premier plan, leur assurant ainsi une experience d'utilisation inégalable.</p>
-            </div>
+              <p>Dans notre démarche de conception, nous plaçons toujours les futurs utilisateurs au premier plan, leur assurant ainsi une experience d'utilisation inégalable.</p>
+            </article>
           </li>
-          <li>
-            <div class="wa-round-divider">
-              <i class="fas fa-cubes wa-service-logo"></i>
-              <i class="fas fa-circle wa-round-divider-point"></i>
+          <li class="wa-service">
+            <div class="wa-service-icone">
+              <i class="fas fa-circle wa-service-icone-point"></i>
+              <i class="fas fa-cubes wa-service-icone-img"></i>
             </div>
-            <div class="wa-service">
+            <article class="wa-service-description">
               <h3>UI design</h3>
-              <p>Nous vous accordons également beaucoup d'importance, afin de créer une interface <br/>
-                à la fois agréable pour vos visiteurs, et respectueuse de l'identité de votre entreprise.</p>
-            </div>
+              <p>Nous vous accordons également beaucoup d'importance, afin de créer une interface à la fois agréable pour vos visiteurs, et respectueuse de l'identité de votre entreprise.</p>
+            </article>
           </li>
-          <li>
-            <div class="wa-round-divider">
-              <i class="fas fa-chart-pie wa-service-logo"></i>
-              <i class="fas fa-circle wa-round-divider-point"></i>
+          <li class="wa-service">
+            <div class="wa-service-icone">
+              <i class="fas fa-circle wa-service-icone-point"></i>
+              <i class="fas fa-chart-pie wa-service-icone-img"></i>
             </div>
-            <div class="wa-service">
+            <article class="wa-service-description">
               <h3>SEO</h3>
               <p>De plus, notre expérience du web nous permet de vous garantir le meilleur placement possible dans les résultats des moteurs de recherches</p>
-            </div>
+            </article>
           </li>
         </ul>
-      </article>
+      </section>
     </section>
     <section id="portfolio" class="wa-page-section">
-      <h2 class="wa-heading wa-center">Nos Projets</h2>
-      <div class="wa-divider">
-        <span class="wa-divider-point"></span>
-      </div>
-      <p class="wa-center">Fort d'une expérience dans de nombreux domaines, nous pouvont répondre à tous vos besoins !<br/>Ils nous ont fait confiance...</p>
-      <nav id="portfolio-nav">
-        <ul>
-          <li>
-            <i class="fas fa-caret-down"></i>
-            Tout
-          </li>
-          <li>
-            <i class="fas fa-caret-down"></i>
-            Créatif
-          </li>
-          <li>
-            <i class="fas fa-caret-down"></i>
-            Entreprise
-          </li>
-          <li>
-            <i class="fas fa-caret-down"></i>
-            Portfolio
-          </li>
-        </ul>
-      </nav>
-      <div id="portfolio-container">
-        <figure class="portfolio-item">
-          <img src="images/portfolio/01.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+      <header class="wa-section-hero">
+        <h2 class="wa-heading wa-center">Nos Projets</h2>
+        <div class="wa-divider">
+          <span class="wa-divider-point"></span>
+        </div>
+        <p class="wa-center">Fort d'une expérience dans de nombreux domaines, nous pouvont répondre à tous vos besoins !<br/>Ils nous ont fait confiance...</p>
+        <nav id="portfolio-nav">
+          <ul>
+            <li>
+              <i class="fas fa-caret-down"></i>
+              Tout
+            </li>
+            <li>
+              <i class="fas fa-caret-down"></i>
+              Créatif
+            </li>
+            <li>
+              <i class="fas fa-caret-down"></i>
+              Entreprise
+            </li>
+            <li>
+              <i class="fas fa-caret-down"></i>
+              Portfolio
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="wa-section-body">
+        <div id="portfolio-container">
+          <figure class="portfolio-item">
+            <img src="images/portfolio/01.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Joke 2.0</h3></a>
               <p>Site e-commerce de farces et attrapes.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/02.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/02.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Easter Egg</h3></a>
               <p>Forum d'échange sur le thème du jeu vidéo.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/03.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/03.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Pompadour</h3></a>
               <p>Site e-commerce de chaussures de marques.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/04.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/04.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Mosbius Design</h3></a>
               <p>Site vitrine d'un cabinet d'architecte.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/05.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/05.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Shopping Bag</h3></a>
               <p>Site e-commerce de vêtements.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/06.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/06.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Travel</h3></a>
               <p>Site vitrine d'une agence de voyage.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/07.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/07.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Celestus</h3></a>
               <p>Jeu vidéo sur navigateur.</p>
-          </figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="images/portfolio/08.jpg" alt="">
-          <figcaption class="portfolio-item-description wa-white">
+            </figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="images/portfolio/08.jpg" alt="">
+            <figcaption class="portfolio-item-description wa-white">
               <i class="fas fa-eye"></i>
               <a href="#portfolio" class="wa-white"><h3>Modern Workr</h3></a>
               <p>Site e-commerce de fournitures de bureau.</p>
-          </figcaption>
-        </figure>
-      </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
     </section>
     <section id="contact" class="wa-page-section">
       <form action="index.html" method="post" id="contact-form">

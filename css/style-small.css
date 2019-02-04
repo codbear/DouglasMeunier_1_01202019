@@ -70,11 +70,8 @@
   display: none;
 }
 
-#services ul, #services li {
+#wa-services-list {
   width: 100%;
-}
-
-#services ul {
   padding: 0;
 }
 
