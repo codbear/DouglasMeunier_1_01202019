@@ -7,19 +7,19 @@ body {
 /* Animation slider */
 @-webkit-keyframes wa-slider {
   0% {
-    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
   }
   25% {
-    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
   }
   50% {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
   }
   75% {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
   }
   100% {
-    transform: translateX(0%);
+    -webkit-transform: translateX(-200%);
   }
 }
 
@@ -196,6 +196,7 @@ ul {
 
 #wa-slides-list {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 300%;
   list-style-type: none;
@@ -265,6 +266,8 @@ ul {
 }
 
 .wa-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -285,7 +288,8 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .wa-service-icone-point {
@@ -293,7 +297,8 @@ ul {
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
   border: 5px solid #fff;
   border-radius: 50%;
 }
@@ -340,7 +345,8 @@ ul {
   position: absolute;
   bottom: -5px;
   left: 0;
-  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
   -webkit-transition-property: all;
           transition-property: all;
   opacity: 0;
@@ -412,7 +418,8 @@ ul {
   left: 80%;
   height: 50px;
   width: 50px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   line-height: 50px;
   text-align: center;
   font-size: 1.5em;
@@ -423,7 +430,8 @@ ul {
 
 /* Section Contact */
 #contact {
-  box-shadow: inset 10000px 0 0 0 rgba(92, 173, 211, 0.25);
+  -webkit-box-shadow: inset 10000px 0 0 0 rgba(92, 173, 211, 0.25);
+          box-shadow: inset 10000px 0 0 0 rgba(92, 173, 211, 0.25);
   background: url("../images/map.png") scroll no-repeat bottom center;
   background-size: cover;
   display: -webkit-box;
