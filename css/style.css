@@ -402,13 +402,28 @@ ul {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0 2% 0 2%;
+  padding: 2%;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   -webkit-transition-property: opacity;
   transition-property: opacity;
   -webkit-transition-duration: 200ms;
           transition-duration: 200ms;
+}
+
+@media screen and (max-width: 1200px) {
+  .wa-portfolio-item {
+    margin-bottom: 5%;
+  }
+
+  .wa-portfolio-item-description {
+    opacity: 1;
+    position: relative;
+  }
+
+  .wa-portfolio-item-description p, .wa-portfolio-item-description h3 {
+    margin-top: 0;
+  }
 }
 
 .wa-portfolio-item img:hover + .wa-portfolio-item-description, .wa-portfolio-item-description:hover {
