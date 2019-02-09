@@ -25,19 +25,19 @@ body {
 
 @keyframes wa-slider {
   0% {
-    transform: translateX(0%);
+            transform: translateX(0%);
   }
   25% {
-    transform: translateX(0%);
+            transform: translateX(0%);
   }
   50% {
-    transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   75% {
-    transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   100% {
-    transform: translateX(-200%);
+            transform: translateX(-200%);
   }
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 a, .wa-blue {
-  color: #5CADD3;
+  color: #5cadd3;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ a, .wa-blue {
 
 .wa-button {
   padding: 2%;
-  background-color: #5CADD3;
+  background-color: #5cadd3;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -120,7 +120,7 @@ ul {
           align-items: center;
   margin: 1% auto 2% auto;
   height: 2px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   width: 15%;
 }
 
@@ -130,7 +130,7 @@ ul {
   height: 12px;
   border: 5px solid #fff;
   border-radius: 12px;
-  background: #5CADD3;
+  background: #5cadd3;
 }
 
 /* Header */
@@ -183,7 +183,7 @@ ul {
 }
 
 #main-nav li:hover {
-  border-top: thick solid #5CADD3;
+  border-top: thick solid #5cadd3;
 }
 
 /* Section Accueil */
@@ -246,8 +246,8 @@ ul {
 
 .fa-chevron-right {
   margin: 0;
-	border-radius: 50px 0 0 50px;
-	right: 0;
+  border-radius: 50px 0 0 50px;
+  right: 0;
 }
 
 /* Section Services */
@@ -277,13 +277,13 @@ ul {
 .wa-service-icone {
   margin-right: 5%;
   position: relative;
-  border: 3px solid #E5E5E5;
+  border: 3px solid #e5e5e5;
   border-radius: 50%;
   width: 70px;
   min-width: 70px;
   height: 70px;
   min-height: 70px;
-  color: #5CADD3;
+  color: #5cadd3;
 }
 
 .wa-service-icone-img {
@@ -359,8 +359,8 @@ ul {
 }
 
 #portfolio-nav li:hover {
-  background-color: #5CADD3;
-  border-bottom: 5px solid #468CAD;
+  background-color: #5cadd3;
+  border-bottom: 5px solid #468cad;
   color: #fff;
 }
 
@@ -500,7 +500,7 @@ ul {
 
 #contact-form input, #contact-form textarea {
   margin-top: 5%;
-  padding: 2% 0 2% 2%;
+  padding: 2%;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   border: 2px solid #ccc;
